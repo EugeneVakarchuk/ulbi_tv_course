@@ -1,8 +1,7 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Counter from './comp/Counter';
+import PostForm from './comp/PostForm';
 import PostList from './comp/PostList';
-import MyButton from './comp/ui/button/MyButton';
-import MyInput from './comp/ui/input/MyInput';
 import './styles/App.css';
 
 function App() {
@@ -12,32 +11,15 @@ function App() {
     { id: 3, title: 'JavaScript3', body: 'Description3' },
   ])
 
-  const [post, setPost] = useState({ title: '', body: '', })
 
-
-  const addNewPost = (e) => {
-    e.preventDefault()
-    setPosts([...posts, { ...post, id: Date.now() }]);
-    setPost({ title: '', body: '' })
+  const createPost = (newPost) => {
+    setPosts([...posts, newPost])
   }
+
 
   return (
     <div className="App">
-      <form>
-        <MyInput
-          onChange={e => setPost({ ...post, title: e.target.value })}
-          value={post.title}
-          type="text"
-          placeholder="Post name"
-        />
-        <MyInput
-          onChange={e => setPost({ ...post, body: e.target.value })}
-          value={post.body}
-          type="text"
-          placeholder="Post body"
-        />
-        <MyButton onClick={addNewPost}>Create Post</MyButton>
-      </form>
+      <PostForm create={createPost} />
       <PostList posts={posts} title="Posts for JS" />
     </div>
   );
