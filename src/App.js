@@ -1,14 +1,44 @@
 import React from 'react'
 import Counter from './comp/Counter';
+import './styles/App.css';
 
 function App() {
 
   return (
     <div className="App">
-      <Counter />
-      <Counter />
-      <Counter />
-      <Counter />
+      <div className='post'>
+        <div className="post__content">
+          <strong>1. JavaScript</strong>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div className="post__btn">
+          <button>Удалить</button>
+        </div>
+      </div>
+      <div className='post'>
+        <div className="post__content">
+          <strong>1. JavaScript</strong>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div className="post__btn">
+          <button>Удалить</button>
+        </div>
+      </div>
+      <div className='post'>
+        <div className="post__content">
+          <strong>1. JavaScript</strong>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div className="post__btn">
+          <button>Удалить</button>
+        </div>
+      </div>
     </div>
   );
 }
