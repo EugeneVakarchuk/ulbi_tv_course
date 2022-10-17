@@ -9,6 +9,7 @@ In this repository, I repeat the course on creating a React application. Link to
 4. Created controled input.
 5. Refactoring counter component in jsx file.
 6. Working with class styles.
+7. Working with props.
 
 ### What wasn't done:
 1. Create class-component (becaouse class-component is outdated technology).
