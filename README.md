@@ -7,3 +7,4 @@ In this repository, I repeat the course on creating a React application. Link to
 2 - Cleaned react template elements, coments, etc.
 3 - Created simple 'useState' component.
 4 - Created controled input.
+5 - Refactoring counter component in jsx file.
