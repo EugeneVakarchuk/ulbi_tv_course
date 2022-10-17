@@ -15,6 +15,7 @@ In this repository, I repeat the course on creating a React application. Link to
 10. Create uncontrolled input with 'useRef'
 11. Created working input form, and render it.
 12. Refactoring lists to separate React component.
+13. Create detete post button.
 
 ### What wasn't done:
 1. Create class-component (becaouse class-component is outdated technology).
