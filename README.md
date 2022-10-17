@@ -10,6 +10,7 @@ In this repository, I repeat the course on creating a React application. Link to
 5. Refactoring counter component in jsx file.
 6. Working with class styles.
 7. Working with props.
+8. Working with lists. Transformation massive of object to massive Reacts elements. 
 
 ### What wasn't done:
 1. Create class-component (becaouse class-component is outdated technology).
