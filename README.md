@@ -11,6 +11,8 @@ In this repository, I repeat the course on creating a React application. Link to
 6. Working with class styles.
 7. Working with props.
 8. Working with lists. Transformation massive of object to massive Reacts elements. 
+9. Create controlled input with 'useState'
+10. Create uncontrolled input with 'useRef'
 
 ### What wasn't done:
 1. Create class-component (becaouse class-component is outdated technology).
